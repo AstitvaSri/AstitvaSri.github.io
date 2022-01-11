@@ -11318,7 +11318,8 @@ body {
 
 .CVIT {
     color: #41FFEA;
-    font-style: bold
+    font-style: bold;
+    font-size: 2rem
 }
 
 @media (max-width:75em) {
