@@ -11256,13 +11256,15 @@ section {
 
 #hero {
     align-items: center;
-    background: #fff;
+    background-image: url("render1.png");
+    background-size: cover;
+    background-color: #1F2A2D;
     border-bottom: 0;
     bottom: 0;
-    color: #272341;
+    color: #D1D1D6;
     display: flex;
     font-weight: 400;
-    height: 100vh;
+    height: 100%;
     left: 0;
     margin-bottom: 0;
     min-height: 100vh;
@@ -11278,18 +11280,25 @@ section {
     }
 }
 
+body {
+    overflow: hidden;
+}
+
 #hero .hero-title {
     font-size: 5.6rem;
     font-weight: 700;
-    margin-bottom: 3.2rem;
-    text-align: left
+    /* margin-bottom: 3.2rem; */
+    text-align: right;
+    padding-top: 10rem
 }
 
 #hero .hero-subsubtitle {
     font-size: 3.2rem;
     font-weight: 700;
     margin-bottom: 3.2rem;
-    text-align: left
+    text-align: right;
+    color: #606061;
+    padding-bottom: 5rem
 }
 
 @media (max-width:75em) {
@@ -11319,7 +11328,9 @@ section {
 }
 
 #hero .hero-cta {
-    display: flex
+    display: flex;
+    justify-content: right;
+    padding-bottom: 30rem
 }
 
 @media (max-width:56.25em) {
