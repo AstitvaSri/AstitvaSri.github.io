@@ -11123,11 +11123,11 @@ section {
 
 #about {
     background-color: #02aab0;
-    background-image: linear-gradient(135deg, #02aab0, #00cdac);
+    background-image: linear-gradient(180deg, #fff, #516C69);
     border-top: 0;
     -webkit-clip-path: polygon(0 0, 100% 0, 100% 80%, 0 100%);
     clip-path: polygon(0 0, 100% 0, 100% 80%, 0 100%);
-    color: #fff;
+    color: #516C69;
     height: 100%;
     padding-bottom: 10%
 }
@@ -11309,6 +11309,16 @@ body {
     padding-left: 80rem;
     padding-top: 2rem;
     padding-bottom: 10rem
+}
+
+.exp {
+    max-width: 100%;
+    height: auto
+}
+
+.CVIT {
+    color: #41FFEA;
+    font-style: bold
 }
 
 @media (max-width:75em) {
