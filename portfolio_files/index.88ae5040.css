@@ -11280,16 +11280,18 @@ section {
     }
 }
 
+
+/* 
 body {
     overflow: hidden;
-}
+} */
 
 #hero .hero-title {
     font-size: 5.6rem;
     font-weight: 700;
     /* margin-bottom: 3.2rem; */
     text-align: right;
-    padding-top: 10rem
+    padding-top: 16rem
 }
 
 #hero .hero-subsubtitle {
@@ -11299,6 +11301,14 @@ body {
     text-align: right;
     color: #606061;
     padding-bottom: 5rem
+}
+
+.intro {
+    text-align: right;
+    font-size: 2.0rem;
+    padding-left: 80rem;
+    padding-top: 2rem;
+    padding-bottom: 10rem
 }
 
 @media (max-width:75em) {
@@ -11330,7 +11340,7 @@ body {
 #hero .hero-cta {
     display: flex;
     justify-content: right;
-    padding-bottom: 30rem
+    padding-bottom: 10rem
 }
 
 @media (max-width:56.25em) {
